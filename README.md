@@ -29,8 +29,7 @@ train_final.pkl, test_final.pkl: Serialised dataframes after executing feature_a
 *.csv: Output files(used for submission).
 
 How the code works?
-
-You can run any of the .py files standalone as the required data files are provided using the pickle files.
+--> You can run any of the .py files standalone as the required data files are provided using the pickle files.
 However the correct sequence of execution is:
 fetching_data.py -> feature_analysis.py -> modelling_*.py
 
